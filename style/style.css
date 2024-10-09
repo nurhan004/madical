@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 100%; */
+  
+
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+
+}
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+    cursor: pointer;
+
+}
+.navigation li:hover{
+    color: aqua;
+    text-transform: uppercase;
+}
+.SignUp{
+
+padding: 12px 22px ;
+border-radius: 10px ;
+background-color: #4D77FF;  
+border: none; 
+color: white;
+cursor: pointer;
+
+
+
+}
+.SignUp:hover{
+    background-color: aqua;
+}
+.SignIn{
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    /* text-decoration: none; */
+   cursor: pointer;
+  
+}
+.SignIn:hover{
+    background-color: aqua;
+}
+.bay {
+text-decoration: line-through;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    
+    
+    
+
+.block-text h1{
+    width: 634px;
+height: 140px;
+top: 184px;
+left: 100px;
+font-family: Manrope;
+font-size: 54px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0.02em;
+margin-left: 80px;
+margin-top: 184px;
+
+    
+}
+.block-text p{
+    width: 601px;
+height: 60px;
+top: 350px;
+left: 101px;
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-left: 80px;
+margin-top: 26px;
+}
+.block-text img{
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+
+.containerr{
+    width: 1238px;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+}
+.block2{
+    background-color: rgb(252, 254, 255);
+    
+    border-radius: 12px;
+}
+.block-textt h2{
+    color:  #121212;
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 50px  ;   
+}
+.block-cardd{
+    width: 287px;
+height: 226px;
+top: 923px;
+left: 100px;
+background-color: rgb(199, 230, 246);
+border-radius: 0px 0px 10px 10px;
+padding-left: 40px;
+padding-top: 50px;
+}
+.block-cardd h4{
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+margin: 12px 0;
+
+}
+.block-cardd p{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+width: 176px;
+}
+.block-cardss{
+    display: flex;
+    justify-content: space-between;
+}
+.konteinerrr{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.block3{
+    display: flex;
+    align-items: start;
+    position: relative;
+    justify-content: space-between;
+}
+.find{
+    color: #4D77FF;
+font-size: 14px;
+font-weight: 700;
+
+
+}
+.block3-text{
+    width: 500px;
+    
+}
+.block3-text h2{
+font-size: 32px;
+font-weight: 700;
+color:  #121212;
+width: 493px;
+padding-top: 20px;
+padding-top: 26px;
+}
+.nuku { 
+font-size: 14px;    
+font-weight: 400;
+color:  #696969;
+width: 531px;
+padding-top: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    padding-top: 14px;
+    
+}
+
+.btn{
+padding: 16px 36px ;
+border-radius: 10px ;
+background-color: #4D77FF;
+color: white;
+border: none;
+margin-top: 26px;
+
+
+
+}
+.block3-position{
+    width: 202px;
+    padding: 16px 30px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    position: absolute;
+    left: 600px;
+    
+}
+.oma{
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+}
+.feku{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+color:  #696969;
+}
+.nur{
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+}
+.mama{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+color: #696969;
+}
+.cconteiner{
+    width: 1200px;
+    margin: 0 auto;
+    
+   
+}
+.block4{
+    margin-top: 150px;
+}
+.block4-text{
+    position: absolute;
+    margin-left: 800px;
+    /* margin-top: 200px; */
+}
+
+.felix{
+    color:  #4D77FF;
+
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+/* margin-top: 10px; */
+
+
+}
+.nurxan{
+width: 441px;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+margin-top: 10px;
+
+
+}
+.mars{
+width: 472px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 26px;
+
+
+}
+.ccontainer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.block5{
+    margin-top: 200px;
+}
+.block5-text{
+    margin-left: 290px;
+}
+.nurxxan{
+    width: 77px;
+  color:  #4D77FF; 
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+/* text-align: center; */
+margin-left: 175px;
+
+
+}
+.aiper{
+    width: 417px;
+   
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+/* letter-spacing: 0.015em; */
+text-align: center;
+
+}
+.block5-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* border-top: #4D77FF; */
+   
+}
+.block5-card{
+    width: 287px;
+height: 190px;
+top: 3px;
+padding: 50px 78px 44px 78px;
+border-radius: 0px 0px 10px 10px;
+border-top: 4px solid  #4D77FF;
+background-color: rgb(231, 247, 247);
+
+
+}
+.aina{
+    width: 84px;
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+
+text-align: left;
+
+}
+h1{
+    width: 131px;
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+.nurlan{
+    width: 84px;
+    font-family: Manrope;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.nurla{
+    /* width: 115px; */
+  
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+
+text-align: center;
+
+}
+.nurl{
+  
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+
+text-align: center;
+
+}
+.ccconteinerr{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block6-text{
+   margin-left: 350px;
+   margin-top: 200px;
+ 
+}
+.block6-text2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 150px;
+}
+.block6-text p{
+    margin-left: 100px;
+    margin-top: 11px;
+}
+.many{
+    width: 500px;
+height: 40px;
+top: 3143px;
+left: 1535px;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+/* text-align: center; */
+
+
+}
+.mach{
+    width: 288px;
+   
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+/* text-align: left; */
+
+}
+.free{
+    width: 533px;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+
+text-align: left;
+
+}
+.apple{
+width: 149px;
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 134px;
+}
+.banan{
+width: 208px;
+color: #696969;
+margin-top: 14px;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+
+
+
+}
+.mary{
+    margin-top: 150px;
+}
+.ckontainer{
+    width: 1400px;
+    margin: 0 auto;
+}
+.block7{
+display: flex;
+margin-top: 200px;
+
+
+}
+.block7-text{
+    display: flex;
+    position: absolute;
+    margin-left: 800px;
+    justify-content: space-between;
+
+}
+.nurch{
+    margin-left: 70px;
+}
+
+.nurtil{
+    width: 95px;
+ 
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+
+text-align: left;
+
+}
+.flower{
+    width: 110px;
+    margin-top: 16px;
+ 
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+text-align: left;
+
+}
+.flow{
+    width: 76px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-top: 10px;
+
+}
+.flowe{
+    width: 112px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-top: 10px;
+
+}
+.flowerr{
+    width: 91px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+.short{
+    width: 129px;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+.arbus{
+    display: flex;
+   justify-content: space-evenly;
+}
+/* .mara{
+    margin-top: 200px;
+} */
+.maka{
+    color: #4D77FF;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.78px;
+text-align: left;
+
+}
+.bara{
+    width: 175px;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.78px;
+text-align: left;
+
+}
+.marak{
+    width: 429px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

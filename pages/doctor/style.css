@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 100%; */
+    position: sticky;
+    top: 20px;
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+
+}
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+}
+.SignUp{
+padding: 12px 22px ;
+border-radius: 10px ;
+background-color: #4D77FF;  
+border: none; 
+color: white;
+
+}
+.SignIn{
+    padding: 12px 22px ;
+    border-radius: 10px ;
+    border: none;
+   background-color:  white;
+    }
+
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+      
+}
+h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+p{
+    font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+width: 176px;
+}
+.nur{
+margin-top: 50px;
+    
+}
+.oma{
+    margin-left: 50px;
+    margin-top: 50px;
+
+    
+}
+.asa{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.beka{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.nurs{
+    margin-left: 50px;
+    margin-top: 50px;
+}
